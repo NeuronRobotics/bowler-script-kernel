@@ -57,6 +57,7 @@ public class GroovyHelper implements IScriptingLanguage{
 			script = shell.parse((File)code);
 		else 
 			return null;
+		
 		return script.run();
 
 	}
